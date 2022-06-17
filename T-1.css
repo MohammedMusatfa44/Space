@@ -245,7 +245,6 @@ body {
   background-color: rgba(0, 0, 0, 0.2196078431);
   position: relative;
   padding-bottom: 100px !important;
-  overflow: hidden;
 }
 .space .contianer {
   -webkit-transition: 1.5s;
@@ -573,7 +572,7 @@ body {
           filter: drop-shadow(2px 4px 6px rgb(133, 133, 133));
   padding: 5px;
 }
-@media (max-width: 450px) {
+@media (min-width: 450px) {
   .gallery .img-1 {
         width: 100%;
   }
@@ -707,7 +706,7 @@ body {
   -webkit-animation: animition-7 2s linear infinite;
           animation: animition-7 2s linear infinite;
 }
-@media (max-width: 350px) {
+@media (min-width: 450px) {
   .loding .lode {
     left: 42%;
 
