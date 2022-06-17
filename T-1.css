@@ -156,7 +156,6 @@ body {
 
 .land {
   height: 80vh;
-  overflow: hidden;
 }
 @media (max-width: 767px) {
   .land .container {
@@ -245,6 +244,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2196078431);
   position: relative;
   padding-bottom: 100px !important;
+  overflow: hidden;
 }
 .space .contianer {
   -webkit-transition: 1.5s;
@@ -706,7 +706,7 @@ body {
   -webkit-animation: animition-7 2s linear infinite;
           animation: animition-7 2s linear infinite;
 }
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   .loding .lode {
     left: 42%;
 
