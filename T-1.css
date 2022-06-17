@@ -11,6 +11,7 @@ body {
 }
 
 .nav-space {
+  overflow: hidden;
   -webkit-box-shadow: 10px 10px 60px rgba(255, 215, 0, 0.6509803922);
           box-shadow: 10px 10px 60px rgba(255, 215, 0, 0.6509803922);
 }
@@ -58,6 +59,7 @@ body {
 .nav-space .right {
   text-align: right;
   height: 40px;
+  margin-left: -30px;
 }
 .nav-space .input-nav {
   background-color: transparent;
@@ -154,6 +156,7 @@ body {
 
 .land {
   height: 80vh;
+  overflow: hidden;
 }
 @media (max-width: 767px) {
   .land .container {
@@ -242,6 +245,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2196078431);
   position: relative;
   padding-bottom: 100px !important;
+  overflow: hidden;
 }
 .space .contianer {
   -webkit-transition: 1.5s;
@@ -522,6 +526,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2196078431);
   padding-top: 50px;
   padding-bottom: 100px;
+  overflow: hidden;
 }
 @media (max-width: 767px) {
   .about .container {
@@ -549,6 +554,7 @@ body {
 .gallery {
   padding-top: 50px;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .gallery .img-gar {
   position: relative;
@@ -566,6 +572,11 @@ body {
   -webkit-filter: drop-shadow(2px 4px 6px rgb(133, 133, 133));
           filter: drop-shadow(2px 4px 6px rgb(133, 133, 133));
   padding: 5px;
+}
+@media (max-width: 450px) {
+  .gallery .img-1 {
+        width: 100%;
+  }
 }
 .gallery .more-gar {
   text-decoration: none;
@@ -597,6 +608,7 @@ body {
 .contact {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
+  overflow: hidden;
 }
 @media (max-width: 767px) {
   .contact .container {
@@ -657,6 +669,10 @@ body {
   -webkit-transform: translateX(0%) !important;
           transform: translateX(0%) !important;
 }
+.transform-zero2 {
+  -webkit-transform: translateX(15%) !important;
+          transform: translateX(15%) !important;
+}
 
 .shoow {
   opacity: 1 !important;
@@ -670,6 +686,7 @@ body {
   -webkit-transition: 1s;
   transition: 1s;
   width: 100%;
+  overflow: hidden;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.8784313725);
   z-index: 22222;
@@ -684,11 +701,17 @@ body {
   border-style: solid solid dotted dotted;
   border-radius: 50%;
   top: 50%;
-  left: 42%;
+  left: 50%;
   margin-left: -50px;
   margin-top: -50px;
   -webkit-animation: animition-7 2s linear infinite;
           animation: animition-7 2s linear infinite;
+}
+@media (max-width: 350px) {
+  .loding .lode {
+    left: 42%;
+
+  }
 }
 .loding .lode::after {
   content: "";

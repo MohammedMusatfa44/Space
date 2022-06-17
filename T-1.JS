@@ -44,7 +44,7 @@ $(function(){
 right.onclick = function()
 {
     console.log("kkk");
-    input_nav.classList.add("transform-zero")
+    input_nav.classList.add("transform-zero2")
 }
 more_1.onclick = function () {
     tow.classList.add("shooow");
