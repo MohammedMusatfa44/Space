@@ -1,0 +1,35 @@
+@use "../varibales/var.scss" as *;
+@use "../minix/min.scss" as *;
+
+body{
+    background-color: #727056;
+
+}
+.gallery{
+    border: 20px solid #fff8ad57;
+    padding: 40px;
+    border-radius: 72px;
+    background-color: $mian-color;
+    .container{
+        overflow: hidden;
+        @include media(mopile){
+            justify-content: center !important;
+        }
+            .img-gar ,  .img-gar-1{
+                transition: $mian-transition;
+        
+                filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.642));
+                width: 200px;
+                height: 270px;
+
+            }
+            .img-gar-1{
+                transition: $mian-transition + 1s;
+                transform: translateX(300px);
+            }
+
+    }
+}
+.shoow{
+transform: translateX(0) !important;
+}
