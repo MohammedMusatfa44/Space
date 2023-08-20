@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T20:31:07.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="JQRagGnG2IHrrX-mSA03" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T06:54:26.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="kAB6E_DlblK2kSvWgNLV" version="21.6.8" type="github">
   <diagram name="Page-1" id="sFfoceqI1ywxdXFWm-_H">
-    <mxGraphModel dx="2829" dy="2729" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3960" dy="3380" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,7 +109,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ghbjzDnoIVB0wGIXrf6Z-38" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;id(&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ffb366&quot;&gt;integer&lt;/font&gt;)&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 11px; font-family: &amp;quot;Architects Daughter&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;doors_supply(&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#ffb366&quot;&gt;string&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; warranty_period (&lt;span style=&quot;color: rgb(255, 179, 102); font-size: 11px;&quot;&gt;string&lt;/span&gt;)&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; duration_offer(&lt;span style=&quot;color: rgb(255, 179, 102); font-size: 11px;&quot;&gt;string&lt;/span&gt;)&lt;br&gt;&amp;nbsp; &amp;nbsp; duration_Implementation (&lt;span style=&quot;color: rgb(255, 179, 102);&quot;&gt;integer&lt;/span&gt;)&lt;br&gt;&amp;nbsp; &amp;nbsp; client_id (foring id ) (&lt;font color=&quot;#ffb366&quot;&gt;string&lt;/font&gt;)&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-size: 11px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="aspect=fixed;rounded=1;glass=0;align=left;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;labelBorderColor=none;whiteSpace=wrap;html=1;fontStyle=0;horizontal=1;verticalAlign=middle;fontFamily=Helvetica;arcSize=28;" vertex="1" parent="1">
-          <mxGeometry x="697.5" y="15" width="210" height="210" as="geometry" />
+          <mxGeometry x="697.5" y="30" width="210" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ghbjzDnoIVB0wGIXrf6Z-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="ghbjzDnoIVB0wGIXrf6Z-39" target="ghbjzDnoIVB0wGIXrf6Z-38">
           <mxGeometry relative="1" as="geometry" />
@@ -129,7 +129,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ghbjzDnoIVB0wGIXrf6Z-45" value="Payment Terms" style="text;whiteSpace=wrap;fontSize=18;fontFamily=Architects Daughter;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="712.5" y="225" width="195" height="45" as="geometry" />
+          <mxGeometry x="712.5" y="240" width="195" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ghbjzDnoIVB0wGIXrf6Z-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="ghbjzDnoIVB0wGIXrf6Z-48" target="ghbjzDnoIVB0wGIXrf6Z-49">
           <mxGeometry relative="1" as="geometry" />
